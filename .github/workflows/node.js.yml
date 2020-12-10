@@ -34,5 +34,6 @@ jobs:
         git config --global user.name "yash balkhande"
         git add .
         git stash
+        git pull origin HEAD
         git revert HEAD
         git push
