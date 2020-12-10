@@ -30,3 +30,8 @@ jobs:
     - name: message for faliure
       if: failure()
       run: |
+        git revert HEAD
+        git add .
+        git commit -m "revert bad commit"
+        git push origin HEAD
+        
