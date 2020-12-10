@@ -34,5 +34,5 @@ jobs:
         git config --global user.name "yash balkhande"
         git add .
         git stash
-        git reset --hard HEAD@{1} 
-        git push
+        git reset --hard HEAD@{1}  
+        git push --force
