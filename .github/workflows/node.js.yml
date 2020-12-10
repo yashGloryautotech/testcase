@@ -35,6 +35,4 @@ jobs:
         git add .
         git stash
         git revert HEAD
-        git add .
-        git commit -m "revert bad commit"
-        git push     
+        git push
