@@ -30,6 +30,8 @@ jobs:
     - name: message for faliure
       if: failure()
       run: |
+        git config --global user.email "yash.gloryautotech@gmail.com"
+        git config --global user.name "yash balkhande"
         git revert HEAD
         git add .
         git commit -m "revert bad commit"
