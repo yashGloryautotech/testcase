@@ -32,6 +32,8 @@ jobs:
       run: |
         git config --global user.email "yash.gloryautotech@gmail.com"
         git config --global user.name "yash balkhande"
+        git add .
+        git stash
         git revert HEAD
         git add .
         git commit -m "revert bad commit"
