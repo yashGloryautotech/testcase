@@ -3,7 +3,7 @@ const app=require('../index')
 
 describe('index',function(){
     it('add number should be 2', function(){
-        let result=app.addNumbers(4,4)
+        let result=app.addNumbers(8,8)
         assert.equal(result,2)
     }); 
      
